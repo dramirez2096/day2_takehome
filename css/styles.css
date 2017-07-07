@@ -33,3 +33,26 @@
   border: 1px solid black;
   margin-bottom: 25px;
 }
+
+.green{
+  background-color: green;
+  height: 200px;
+}
+.red{
+  background-color: red;
+  height: 200px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 768px) {
+  .header{
+    background-color: orange;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header{
+    background-color: red;
+  }
+
+}
